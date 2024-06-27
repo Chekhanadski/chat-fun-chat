@@ -1,0 +1,14 @@
+.btn {
+  min-width: 100px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  transition: transform 0.1s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,277 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 90vw;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
+  width: 100%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  width: 100%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.header-Btn-block {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.main-block {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+}
+
+.message-block {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 60vh;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+}
+
+.search-user {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  height: 30px;
+}
+
+.input-search-user {
+  flex-grow: 1;
+}
+
+.user-list {
+  height: 47vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  list-style-type: none;
+}
+
+.user-list li {
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.current-user-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #007bff;
+}
+
+.current-user {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.current-status-user {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 40vh;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.form-messages {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 40px;
+  border-top: 1px solid #007bff;
+}
+
+.input-messages {
+  flex-grow: 1;
+}
+
+.logo {
+  width: 40px;
+}
+
+.myGitHub {
+  text-decoration: none;
+}
+
+.chat-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.user-name {
+  color: #007bff;
+}
+
+.unread-count {
+  padding: 2px 6px;
+  margin-left: 3px;
+  font-size: 12px;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: white;
+}
+
+.message {
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  width: 50%;
+  margin: 10px 10px 0 10px;
+  padding: 10px;
+  background-color: #edf6ff;
+}
+
+.message-sender {
+  font-size: 12px;
+  font-weight: 900;
+  color: #007bff;
+}
+
+.message-datetime {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.message-status {
+  font-size: 10px;
+  margin-top: 10px;
+  color: rgb(64, 64, 64);
+}
+
+.message-outgoing {
+  align-self: flex-end;
+  background-color: #edf6ff;
+}
+
+.message-incoming {
+  align-self: flex-start;
+  background-color: #ffffff;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:disabled:active {
+  transform: none;
+}
+
+.center-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+@media (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .main-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .users {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+
+  .message-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+  }
+
+  .user-list {
+    list-style-type: none;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .header-Btn-block {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    height: 90px;
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+}

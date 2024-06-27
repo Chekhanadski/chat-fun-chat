@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin-top: 40px;
+  padding: 30px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+}
+
+.h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.git-hub-link {
+  text-decoration: none;
+}
