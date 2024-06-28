@@ -58,12 +58,12 @@ It is important to note that Fun Chat App will only work when the [server applic
 
 - Changes status to "delivered" when the recipient logs in.
 - Changes status to "read" when the recipient opens the dialogue and performs specific actions.
-- 
+  
 **9. About Page**
 
 - Contains brief information about the application and its author.
 - Accessible to both authenticated and unauthorized users.
-- 
+  
 **10. Interface and Visual Design**
 
 - Displays the application icon in the browser tab.
