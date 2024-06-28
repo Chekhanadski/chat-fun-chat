@@ -9,7 +9,7 @@ Welcome to our Fun Chat Application! This app is designed to provide a basic and
 
 Users can enjoy features such as user authentication, real-time messaging, user status indicators, message history, and more. Our application is responsive and works well on devices with varying screen sizes, from desktops to mobile phones 📱💻.
 
-It is important to note that Fun Chat App will only work when the [server application](https://github.com/rolling-scopes-school/fun-chat-server/tree/main) is running. You can learn about it from the [detailed description](https://github.com/rolling-scopes-school/fun-chat-server/tree/).
+It is important to note that Fun Chat App will only work when the [server application](https://github.com/rolling-scopes-school/fun-chat-server/tree/main) is running. You can learn about it from the [detailed description](https://github.com/rolling-scopes-school/fun-chat-server/tree/main#readme).
 
 ## Key Features
 **1. User Authentication Page**
