@@ -1,3 +1,4 @@
+*This project was initially developed in a private repository as part of the Rolling Scopes School JavaScript course. After the course completion, it was transferred to my personal repository.*
 
 # Fun Chat Application
 
