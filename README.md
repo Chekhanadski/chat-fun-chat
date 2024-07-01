@@ -4,6 +4,8 @@
 ## View the Project
 You can view the deployment of Fun Chat Application here: [Fun Chat App](https://rolling-scopes-school.github.io/chekhanadski-JSFE2023Q4/fun-chat/#/).
 
+**Important Note:** The Fun Chat application will only work when the mock server is running. Make sure to start the server before running the client application.
+
 ## Description
 Welcome to our Fun Chat Application! This app is designed to provide a basic and user-friendly platform for real-time communication between users.
 
